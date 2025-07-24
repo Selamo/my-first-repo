@@ -51,7 +51,7 @@ print(f"The last letter is {last_letter}")
 # print(joined)   #"apple-banana-cherry"
 
 # #String Examples
-email = "user@example.com"
+email = input("enter your email")
 if "@" in email and "." in email:
     username = email.split("@")[0]
     domain = email.split("@")[1]
@@ -60,31 +60,31 @@ if "@" in email and "." in email:
 else:
     print("Invalid email format")
 
-# #Text analyser
-text = "The quick brown fox jumps over the lazy dog"
-print(f"Text: {text}")
-print(f"Length: {len(text)} characters ")
-print(f"words: {len(text.split())} words")
-print(f"Uppercase: {text.upper()}")
-print(f"Lowercase: {text.lower()}")
-print(f"Title case: {text.title()}")
-print(f"Contains 'fox': {'fox' in text}")
+# # #Text analyser
+# text = "The quick brown fox jumps over the lazy dog"
+# print(f"Text: {text}")
+# print(f"Length: {len(text)} characters ")
+# print(f"words: {len(text.split())} words")
+# print(f"Uppercase: {text.upper()}")
+# print(f"Lowercase: {text.lower()}")
+# print(f"Title case: {text.title()}")
+# print(f"Contains 'fox': {'fox' in text}")
 
 
-# #Exercises for string
-# #1.
-#Name formatting. get a  name input and output it such that the name is the first letters of each name is in caps then, the first and last name
+# # #Exercises for string
+# # #1.
+# #Name formatting. get a  name input and output it such that the name is the first letters of each name is in caps then, the first and last name
 
-name = input("Enter your name: ")
+# name = input("Enter your name: ")
 
-print(f"Your name is {name.title()}")
-print(f"First name = {name.split()[0]} \n Last name = {name.split(" ")[1]}") 
+# print(f"Your name is {name.title()}")
+# print(f"First name = {name.split()[0]} \n Last name = {name.split(" ")[1]}") 
 
-#2.
-#Word counter
-#count how many words, characters and how many times a appears
+# #2.
+# #Word counter
+# #count how many words, characters and how many times a appears
 
-sentence = "Python is an amazing programming language"
-print(f"Characters: {len(sentence)}")
-print(f"Words: {len(sentence.split())}")
-print(f"number of a's in sentence: {sentence.count('a')}")
+# sentence = "Python is an amazing programming language"
+# print(f"Characters: {len(sentence)}")
+# print(f"Words: {len(sentence.split())}")
+# print(f"number of a's in sentence: {sentence.count('a')}")
