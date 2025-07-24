@@ -64,37 +64,37 @@
 #Exercise 1. 
 # A ban name generator
 
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-full_name = first_name + " " + last_name
-age = input("How old are you? ")
-school = input("Which school do you attend?: ")
-department = input("Which department? ")
-best_friend = input("What is your best friend's name?: ")
-fav_meal = input("What is your favourite meal?: ")
-tribe = input("What is your tribe?: ")
-region = input("Which region?: ")
-sport = input("Which sport do you love")
+# first_name = input("Enter your first name: ")
+# last_name = input("Enter your last name: ")
+# full_name = first_name + " " + last_name
+# age = input("How old are you? ")
+# school = input("Which school do you attend?: ")
+# department = input("Which department? ")
+# best_friend = input("What is your best friend's name?: ")
+# fav_meal = input("What is your favourite meal?: ")
+# tribe = input("What is your tribe?: ")
+# region = input("Which region?: ")
+# sport = input("Which sport do you love")
 
-print(f"My name is {full_name}, I am {age} years old. I school in{school}, in the department of{department}.My best freind name is{best_friend}.My favourite meal is {fav_meal}.I am from {tribe} in the {region} region.I love playing{sport}")
+# print(f"My name is {full_name}, I am {age} years old. I school in{school}, in the department of{department}.My best freind name is{best_friend}.My favourite meal is {fav_meal}.I am from {tribe} in the {region} region.I love playing{sport}")
 
 
-#Exercise 2.
-# #Create a calculator for a rectangle.
+# #Exercise 2.
+# # #Create a calculator for a rectangle.
 
-length = int(input("Enter length of rectangle: "))
-width = int(input("Enter the rectangle's width: "))
+# length = int(input("Enter length of rectangle: "))
+# width = int(input("Enter the rectangle's width: "))
 
-perimeter = 2 * (length + width)
-area = length * width
-print(f"The Area of the rectabgle with length {length} and width {width} is {area}\n It's Perimeter = {perimeter}")
+# perimeter = 2 * (length + width)
+# area = length * width
+# print(f"The Area of the rectabgle with length {length} and width {width} is {area}\n It's Perimeter = {perimeter}")
 
-#Exercise 3.
-#Temperature Converter; Convert from Celsius to Fahrenheit
+# #Exercise 3.
+# #Temperature Converter; Convert from Celsius to Fahrenheit
 
-temp_in_celsius = float(input("Enter temperature in celsius: "))
-temp_in_fahrenheit = (temp_in_celsius * (9/5)) + 32
-print(f"{temp_in_celsius} degree celsius in Fahrenheit is {temp_in_fahrenheit} degree Fahrenheit")
+# temp_in_celsius = float(input("Enter temperature in celsius: "))
+# temp_in_fahrenheit = (temp_in_celsius * (9/5)) + 32
+# print(f"{temp_in_celsius} degree celsius in Fahrenheit is {temp_in_fahrenheit} degree Fahrenheit")
 
 #Exercise 4. 
 #Swap variacles put. like if a is 5 and b is 6, the output should be the resverse.
@@ -110,4 +110,4 @@ a = b
 #assign the value of temp (which was the former value of a) to b
 b = temp
 
-print(f"After swap, a = {a}\n b = {b}")
+print(f"After swap, a = {a} and\n b = {b}")
